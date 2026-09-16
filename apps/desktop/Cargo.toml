@@ -1,0 +1,9 @@
+[package]
+name = "papyrus-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Desktop Client: GPUI shell that attaches to a Daemon."
+
+[dependencies]

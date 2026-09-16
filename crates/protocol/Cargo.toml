@@ -1,0 +1,9 @@
+[package]
+name = "papyrus-protocol"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Wire types shared by every Client and Daemon."
+
+[dependencies]

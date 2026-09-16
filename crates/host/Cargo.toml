@@ -1,0 +1,9 @@
+[package]
+name = "papyrus-host"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Host implementation used only by the Daemon."
+
+[dependencies]

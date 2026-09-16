@@ -1,0 +1,9 @@
+[package]
+name = "papyrus-daemon"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Daemon process entrypoint: owns the Host interface on a machine."
+
+[dependencies]

@@ -1,0 +1,18 @@
+# Configures all projects within the workspace to create a project graph.
+# Project names derive from folder names: apps/marketing -> "marketing".
+projects:
+  globs:
+    - "apps/*"
+    - "crates/*"
+    - "packages/*"
+
+# Configures the version control system (VCS). Also known as
+# source code management (SCM).
+vcs:
+  # The default branch / base.
+  defaultBranch: "master"
+
+  # The upstream version control provider, where the repository
+  # source code is stored.
+  # @values "bitbucket" | "bitbucket-legacy" | "github" | "gitlab" | "other"
+  provider: "github"
