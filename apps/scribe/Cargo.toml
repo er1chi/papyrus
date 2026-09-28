@@ -1,0 +1,13 @@
+[package]
+name = "papyrus-scribe"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Scribe: Papyrus's own coding agent, driven by the Daemon as a Runtime."
+
+[[bin]]
+name = "scribe"
+path = "src/main.rs"
+
+[dependencies]

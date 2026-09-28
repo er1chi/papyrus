@@ -25,8 +25,12 @@ A future product backend for accounts, billing, and Plugin discovery. Not on a H
 _Avoid_: server, api, backend, cloud
 
 **Runtime**:
-An agent backend Papyrus can drive. The first Runtimes are Pi and OpenCode.
+An agent backend Papyrus can drive. The first Runtimes are Pi, OpenCode, and Scribe.
 _Avoid_: agent, model, backend, harness
+
+**Scribe**:
+Papyrus's own coding agent. A Runtime like Pi and OpenCode: its own process on the Host, spawned and driven by the Daemon.
+_Avoid_: agent, assistant, bot
 
 **Plugin**:
 A Papyrus-owned WASM extension. Distinct from plugins that belong to a Runtime.

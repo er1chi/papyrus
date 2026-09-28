@@ -25,3 +25,7 @@ version = "0.1.0"
 [[package]]
 name = "papyrus-runtime"
 version = "0.1.0"
+
+[[package]]
+name = "papyrus-scribe"
+version = "0.1.0"

@@ -3,6 +3,7 @@ resolver = "3"
 members = [
     "apps/desktop",
     "apps/daemon",
+    "apps/scribe",
     "crates/protocol",
     "crates/host",
     "crates/runtime",

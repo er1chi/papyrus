@@ -4,6 +4,6 @@ version.workspace = true
 edition.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Adapters for agent Runtimes: Pi and OpenCode."
+description = "Adapters for agent Runtimes: Pi, OpenCode, and Scribe."
 
 [dependencies]
