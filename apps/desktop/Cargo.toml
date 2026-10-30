@@ -7,3 +7,5 @@ repository.workspace = true
 description = "Desktop Client: GPUI shell that attaches to a Daemon."
 
 [dependencies]
+gpui.workspace = true
+gpui-component = "=0.5.1"
