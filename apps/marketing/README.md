@@ -6,10 +6,10 @@ Status: placeholder. One static page, no content yet.
 
 ## Commands
 
-moon runs them; pnpm works directly too.
+turbo runs them; pnpm works directly too.
 
 ```
-moon run marketing:dev      # dev server
-moon run marketing:build    # production build to dist/
-moon run marketing:typecheck
+pnpm turbo run dev --filter=papyrus-marketing        # dev server
+pnpm turbo run build --filter=papyrus-marketing      # production build to dist/
+pnpm turbo run typecheck --filter=papyrus-marketing
 ```

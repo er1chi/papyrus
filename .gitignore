@@ -5,9 +5,8 @@ target/
 node_modules/
 dist/
 
-# moon
-.moon/cache/
-.moon/docker/
+# Turborepo
+.turbo/
 
 # Package manager state
 .pnpm-store/

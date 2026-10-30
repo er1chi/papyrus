@@ -1,0 +1,6 @@
+packages:
+  - apps/marketing
+  - packages/plugin-sdk
+
+allowBuilds:
+  esbuild: true

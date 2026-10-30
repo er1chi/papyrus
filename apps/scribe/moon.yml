@@ -1,9 +1,0 @@
-$schema: 'https://moonrepo.dev/schemas/project.json'
-
-# Scribe: Papyrus's own coding agent. A Runtime, spawned by the Daemon on a
-# Host like Pi and OpenCode. Standalone binary; the Daemon drives it through
-# the adapter in crates/runtime.
-language: 'rust'
-layer: 'application'
-stack: 'systems'
-tags: ['runtime', 'agent', 'scribe']

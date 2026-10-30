@@ -1,9 +1,2 @@
-# Rust
-
-[target]
-# Keep in sync with .moon/toolchains.yml (rust.version).
-# Installed with: rustup toolchain install 1.98.1
-
 [alias]
-# cargo has no built-in lint; wire clippy with workspace-wide strictness.
 lint = "clippy --workspace --all-targets -- -D warnings"
