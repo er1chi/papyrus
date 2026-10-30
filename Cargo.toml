@@ -16,6 +16,9 @@ edition = "2024"
 license = "Apache-2.0"
 repository = "https://github.com/andromeda-u/papyrus"
 
+[workspace.metadata]
+name = "papyrus-cargo"
+
 [workspace.dependencies]
 papyrus-protocol = { path = "crates/protocol" }
 papyrus-host = { path = "crates/host" }

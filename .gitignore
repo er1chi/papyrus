@@ -1,4 +1,29 @@
+# Rust
+target/
 
-# moon
-.moon/cache
-.moon/docker
+# Node
+node_modules/
+dist/
+
+# Turborepo
+.turbo/
+
+# Package manager state
+.pnpm-store/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
